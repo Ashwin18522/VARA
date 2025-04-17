@@ -1,0 +1,62 @@
+.hero {
+    position: relative;
+    height: 100vh; /* Covers 50% of screen height */
+    width: 100%;
+    overflow: hidden;
+    background: linear-gradient(180deg, beige, #e1ffea22 60%);
+  }
+
+  .carousel-track{
+    /*slides left and right*/
+    display: flex;
+    transition: transform 1.5s ease-in-out;
+    height: 100%;
+    width: 100%;
+  }
+
+  .carousel-track img
+  { 
+    /*viewport width*/
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    flex-shrink: 0;
+  }
+  /*
+  .carousel-slide {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .carousel-slide img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+*/
+  
+  .dots {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    z-index: 1;
+  }
+  
+  .dot {
+    width: 10px;
+    height: 10px;
+    background: #ddd;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .dot.active {
+    background: #333;
+  }
+  
