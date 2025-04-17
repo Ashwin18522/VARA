@@ -3,10 +3,10 @@ import './App.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Shop from './pages/Shop';
 import ShopCategory from './pages/ShopCategory';
-import Products from './pages/Products';
 import Cart from './pages/Cart';
 import About from './components/Aboutc/Aboutp.jsx';
 import SubscriptionBox from './pages/SubscriptionBox/SubscriptionBox.jsx';
+import ProductDetail from './pages/ProductDetail';
 function App() {
   return (
     <div className="App">
@@ -21,8 +21,8 @@ function App() {
           <Route path='/subscription-box' element={<SubscriptionBox />} />
           <Route path='/decor' element={<ShopCategory category="decor" />} />
           <Route path='/about' element={<About />} />
-          <Route path='/products' element={<Products />} />
-          <Route path='/products/:productId' element={<Products />} />
+          <Route path='/products' element={<ProductDetail />} />
+          <Route path="/product/:id" element={<ProductDetail />} />
           <Route path='/cart' element={<Cart />} />
           {/* <Route path='/ShopCategory' element={<ShopCategory/>} /> */}
         </Routes>

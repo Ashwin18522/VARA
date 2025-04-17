@@ -1,0 +1,40 @@
+.product-detail-container {
+    display: flex;
+    gap: 2rem;
+    padding: 2rem;
+  }
+  
+  .product-images img {
+    width: 300px;
+    border-radius: 10px;
+  }
+  
+  .product-info {
+    max-width: 500px;
+  }
+  
+  .price {
+    font-size: 1.5rem;
+    color: #e63946;
+  }
+  
+  .sizes button {
+    margin: 0.3rem;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+  }
+  
+  .quantity input {
+    width: 50px;
+    margin-left: 1rem;
+  }
+  
+  .add-to-cart {
+    margin-top: 1rem;
+    padding: 0.8rem 2rem;
+    background-color: #e63946;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
