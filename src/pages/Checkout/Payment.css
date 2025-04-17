@@ -1,0 +1,38 @@
+/* src/pages/Payment/PaymentPage.css */
+
+.payment-container {
+    max-width: 600px;
+    margin: 100px auto;
+    padding: 2rem;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    background-color: #fff8f0;
+  }
+  
+  .payment-container h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .payment-container p {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+    color: #555;
+  }
+  
+  .pay-button {
+    padding: 12px 24px;
+    font-size: 1rem;
+    background-color: #ff6f61;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .pay-button:hover {
+    background-color: #e5534b;
+  }
+  
