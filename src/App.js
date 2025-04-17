@@ -13,10 +13,11 @@ function App() {
       <BrowserRouter>
         <NavBar />
         <Routes>
-          <Route path='' element={<Shop />} />
+          <Route path='/' element={<Shop />} />
+          <Route path='/VARA' element={<Shop />} />
           <Route path='/toys' element={<ShopCategory category="toys" />} />
           <Route path='/gifts' element={<ShopCategory category="gifts" />} />
-          <Route path =  '/accessories' element={<ShopCategory category="accessories"/>}/>
+          <Route path ='/accessories' element={<ShopCategory category="accessories"/>}/>
           <Route path='/subscription-box' element={<SubscriptionBox />} />
           <Route path='/decor' element={<ShopCategory category="decor" />} />
           <Route path='/about' element={<About />} />

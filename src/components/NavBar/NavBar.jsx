@@ -12,10 +12,10 @@ const NavBar = () => {
     return(
         <div className = 'navbar'>
             <div>
-            <Link to = '/' onClick={()=>setMenu("Home")}><img src = {varaLogo} alt = "" className='vara-icon' /></Link>    {/*similarly put a classname,img,css for the vara logo */}
+            <Link to = '/VARA' onClick={()=>setMenu("Home")}><img src = {varaLogo} alt = "" className='vara-icon' /></Link>    {/*similarly put a classname,img,css for the vara logo */}
             </div>
             <ul className = 'nav-menu'>
-            <li onClick={()=>{setMenu("Home")}}><Link style={{textDecoration : 'none'}} to = '/'>Home</Link>{menu==='Home'?<hr></hr>:<></>}</li>    
+            <li onClick={()=>{setMenu("Home")}}><Link style={{textDecoration : 'none'}} to = '/VARA'>Home</Link>{menu==='Home'?<hr></hr>:<></>}</li>    
             <li onClick={()=>{setMenu("Toys")}}><Link to = '/toys'>Toys</Link>{menu==='Toys'?<hr></hr>:<></>}</li>
             <li onClick={()=>{setMenu("Accessories")}}><Link to = '/accessories'>Accessories</Link>{menu==='Accessories'?<hr></hr>:<></>}</li>
             <li onClick={()=>{setMenu("Gifts")}}><Link to = '/gifts'>Gifts</Link>{menu==='Gifts'?<hr></hr>:<></>}</li>
