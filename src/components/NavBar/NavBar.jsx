@@ -23,7 +23,7 @@ const NavBar = () => {
             <li onClick={()=>{setMenu("About")}}><Link to = '/about'>About</Link>{menu==='About'?<hr></hr>:<></>}</li>
         </ul>
             <div className='nav-right'>
-                <button className='login-btn'>Login</button>
+                <Link to = '/login'><button className='login-btn'>Login</button></Link>
                 <div className='cart-wrapper'>
                 <Link to = '/cart'><img src = {shopping_cart} alt = "" className='cart-icon' /> </Link>
                 <div className='cart-count'>0</div>
