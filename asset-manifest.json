@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/VARA/static/css/main.0774c48b.css",
+    "main.js": "/VARA/static/js/main.5e7c7fdc.js",
+    "static/media/Soldiers.jpeg": "/VARA/static/media/Soldiers.e66c08370721c7bae92a.jpeg",
+    "static/media/Bangles.jpeg": "/VARA/static/media/Bangles.1c7e816a6cb2436df077.jpeg",
+    "static/media/Veena.jpeg": "/VARA/static/media/Veena.04edb81eb8f2170ee633.jpeg",
+    "static/media/Gaint Wheel.jpeg": "/VARA/static/media/Gaint Wheel.af68beab2708eb05489d.jpeg",
+    "static/media/Truck.jpeg": "/VARA/static/media/Truck.497171d5b7c7d3a28d50.jpeg",
+    "static/media/Snail.jpeg": "/VARA/static/media/Snail.94957661b0d30e250f77.jpeg",
+    "static/media/Cat Counting.jpeg": "/VARA/static/media/Cat Counting.23c40d2a4810ee2f03f8.jpeg",
+    "static/media/Train.jpeg": "/VARA/static/media/Train.a8b5c0a4f49dc1e2e0a4.jpeg",
+    "static/media/Helicopter.jpeg": "/VARA/static/media/Helicopter.7721717262f87dbe0698.jpeg",
+    "static/media/TrainEngine.jpeg": "/VARA/static/media/TrainEngine.f1f0a4f3ed0f682057d3.jpeg",
+    "static/media/bigBunny.jpeg": "/VARA/static/media/bigBunny.9940121743580f825c75.jpeg",
+    "static/media/Vintage Car.jpeg": "/VARA/static/media/Vintage Car.58212e7e62e4f5fd612a.jpeg",
+    "static/media/Scooter.jpeg": "/VARA/static/media/Scooter.2969134f48793e7a1c06.jpeg",
+    "static/media/light_mode_logo.png": "/VARA/static/media/light_mode_logo.a47cad5ff827875e6b8e.png",
+    "static/media/shopping_cart.jpg": "/VARA/static/media/shopping_cart.51d3d101b62326daa4f2.jpg",
+    "index.html": "/VARA/index.html",
+    "main.0774c48b.css.map": "/VARA/static/css/main.0774c48b.css.map",
+    "main.5e7c7fdc.js.map": "/VARA/static/js/main.5e7c7fdc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0774c48b.css",
+    "static/js/main.5e7c7fdc.js"
+  ]
+}
