@@ -16,7 +16,7 @@ const About = () => {
         <div className="about-content">
           <div className="text">
             <h2>A Tiny Workshop, A World of Magic</h2>
-            <p>
+            <p className='about-info'>
               Tucked away in the heart of Karnataka, the town of Channapatna hums with the rhythmic
               tap-tap of chisels meeting wood, the soft swirl of lacquer coating, and the warm scent
               of seasoned ivory wood. Here, generations of artisans breathe life into blocks of wood,
@@ -32,7 +32,7 @@ const About = () => {
           <img src="https://images.unsplash.com/photo-1585249141959-9989d26e0070?auto=format&fit=crop&w=800&q=80" alt="Artisan working on toy" />
           <div className="text">
             <h2>The Hands That Build Joy</h2>
-            <p>
+            <p className='about-info'>
               A Channapatna toy starts as a humble piece of Wrightia tinctoria, locally called Aale Mara,
               known for its smooth texture and durability. It’s seasoned, shaped, and carefully sanded before
               being coated in natural dyes extracted from turmeric, indigo, and kumkum—a conscious,
@@ -49,7 +49,7 @@ const About = () => {
         <div className="about-content">
           <div className="text">
             <h2>A Walk Down Memory Lane</h2>
-            <p>
+            <p className='about-info'>
               For many of us, these toys bring back sepia-toned childhood memories. The excitement of spinning a
               lacquered top and watching it dance, the careful stacking of wooden rings to form a wobbly tower,
               the pull-along duck that followed us everywhere—these simple joys remain etched in our hearts.
@@ -64,7 +64,7 @@ const About = () => {
 
         <div className="about-conclusion">
           <h2>Keeping the Legacy Alive</h2>
-          <p>
+          <p className='about-info'>
             Today, brands like VARA are working to blend tradition with modern storytelling, ensuring these toys don’t
             just remain souvenirs but become a part of every child’s playroom once again. Whether it's through themed
             subscription boxes or creative reinterpretations of classic toys, the goal remains the same—to keep the spirit
