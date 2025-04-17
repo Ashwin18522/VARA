@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/VARA/static/css/main.0774c48b.css",
-    "main.js": "/VARA/static/js/main.8f42edd3.js",
+    "main.css": "/VARA/static/css/main.b1e87c65.css",
+    "main.js": "/VARA/static/js/main.946cdd0e.js",
     "static/media/Soldiers.jpeg": "/VARA/static/media/Soldiers.e66c08370721c7bae92a.jpeg",
     "static/media/Bangles.jpeg": "/VARA/static/media/Bangles.1c7e816a6cb2436df077.jpeg",
     "static/media/Veena.jpeg": "/VARA/static/media/Veena.04edb81eb8f2170ee633.jpeg",
@@ -18,11 +18,11 @@
     "static/media/light_mode_logo.png": "/VARA/static/media/light_mode_logo.a47cad5ff827875e6b8e.png",
     "static/media/shopping_cart.jpg": "/VARA/static/media/shopping_cart.51d3d101b62326daa4f2.jpg",
     "index.html": "/VARA/index.html",
-    "main.0774c48b.css.map": "/VARA/static/css/main.0774c48b.css.map",
-    "main.8f42edd3.js.map": "/VARA/static/js/main.8f42edd3.js.map"
+    "main.b1e87c65.css.map": "/VARA/static/css/main.b1e87c65.css.map",
+    "main.946cdd0e.js.map": "/VARA/static/js/main.946cdd0e.js.map"
   },
   "entrypoints": [
-    "static/css/main.0774c48b.css",
-    "static/js/main.8f42edd3.js"
+    "static/css/main.b1e87c65.css",
+    "static/js/main.946cdd0e.js"
   ]
 }
