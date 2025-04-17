@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/VARA/static/css/main.0774c48b.css",
-    "main.js": "/VARA/static/js/main.5e7c7fdc.js",
+    "main.js": "/VARA/static/js/main.8f42edd3.js",
     "static/media/Soldiers.jpeg": "/VARA/static/media/Soldiers.e66c08370721c7bae92a.jpeg",
     "static/media/Bangles.jpeg": "/VARA/static/media/Bangles.1c7e816a6cb2436df077.jpeg",
     "static/media/Veena.jpeg": "/VARA/static/media/Veena.04edb81eb8f2170ee633.jpeg",
@@ -19,10 +19,10 @@
     "static/media/shopping_cart.jpg": "/VARA/static/media/shopping_cart.51d3d101b62326daa4f2.jpg",
     "index.html": "/VARA/index.html",
     "main.0774c48b.css.map": "/VARA/static/css/main.0774c48b.css.map",
-    "main.5e7c7fdc.js.map": "/VARA/static/js/main.5e7c7fdc.js.map"
+    "main.8f42edd3.js.map": "/VARA/static/js/main.8f42edd3.js.map"
   },
   "entrypoints": [
     "static/css/main.0774c48b.css",
-    "static/js/main.5e7c7fdc.js"
+    "static/js/main.8f42edd3.js"
   ]
 }
