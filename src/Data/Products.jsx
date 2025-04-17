@@ -48,7 +48,7 @@ const products = [
   },
   {
     product_id: 104,
-    name: "Gaint Wheel",
+    name: "Giant Wheel",
     price: 599,
     description: "A miniature ferris wheel decor piece with moving parts.",
     category: "Decor",
