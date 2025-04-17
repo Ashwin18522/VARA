@@ -7,6 +7,7 @@ import Products from './pages/Products';
 import Cart from './pages/Cart';
 import About from './components/Aboutc/Aboutp.jsx';
 import SubscriptionBox from './pages/SubscriptionBox/SubscriptionBox.jsx';
+// hello
 function App() {
   return (
     <div className="App">
@@ -16,14 +17,14 @@ function App() {
           <Route path='' element={<Shop />} />
           <Route path='/toys' element={<ShopCategory category="toys" />} />
           <Route path='/gifts' element={<ShopCategory category="gifts" />} />
-          <Route path =  '/accessories' element={<ShopCategory category="accessories"/>}/>
+          <Route path ='/accessories' element={<ShopCategory category="accessories"/>}/>
           <Route path='/subscription-box' element={<SubscriptionBox />} />
           <Route path='/decor' element={<ShopCategory category="decor" />} />
           <Route path='/about' element={<About />} />
           <Route path='/products' element={<Products />} />
           <Route path='/products/:productId' element={<Products />} />
           <Route path='/cart' element={<Cart />} />
-          {/* <Route path='/ShopCategory' element={<ShopCategory/>} /> */}
+          {/*  <Route path='/ShopCategory' element={<ShopCategory/>} /> */ }
         </Routes>
       </BrowserRouter>
     </div>

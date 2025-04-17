@@ -1,4 +1,3 @@
-
 import React from 'react'
 import './NavBar.css'
 import shopping_cart from '../Assets/shopping_cart.jpg'
@@ -7,7 +6,7 @@ import { useState } from 'react'
 import { Link } from 'react-router-dom'
 const NavBar = () => {
     const [menu,setMenu] = useState("Home");
-    const [showDropdown, setShowDropdown] = useState(false); // 👈 Add this line
+    const [showDropdown, setShowDropdown] = useState(false); 
 
     return(
         <div className = 'navbar'>
