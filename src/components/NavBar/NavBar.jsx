@@ -32,13 +32,13 @@ const NavBar = () => {
                     <Link to='/accessories'>Accessories</Link>
                     {menu === 'Accessories' ? <hr></hr> : <></>}
                 </li>
-                <li onClick={() => { setMenu("Subscription Box") }}>
-                    <Link to='/subscription-box'>Subscription Box</Link>
-                    {menu === 'Subscription Box' ? <hr></hr> : <></>}
-                </li>
                 <li onClick={() => { setMenu("Decor") }}>
                     <Link to='/decor'>Decor</Link>
                     {menu === 'Decor' ? <hr></hr> : <></>}
+                </li>
+                <li onClick={() => { setMenu("Subscription Box") }}>
+                    <Link to='/subscription-box'>Subscription Box</Link>
+                    {menu === 'Subscription Box' ? <hr></hr> : <></>}
                 </li>
                 <li onClick={() => { setMenu("About") }}>
                     <Link to='/about'>About</Link>
