@@ -1,0 +1,33 @@
+.cart-page {
+    padding: 20px;
+  }
+  .cart-items {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .cart-item {
+    display: flex;
+    gap: 20px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+  }
+  .cart-item img {
+    width: 400px;
+    height: 400px;
+  }
+  .item-details {
+    flex-grow: 1;
+    font-size: x-large;
+  }
+  .item-controls button {
+    margin: 0 5px;
+  }
+  .cart-summary {
+    margin-top: 20px;
+  }
+  .checkout-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+  

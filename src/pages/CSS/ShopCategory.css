@@ -39,3 +39,17 @@
     border-radius: 8px;
   }
   
+  .add-to-cart-button {
+    margin-top: auto;
+    padding: 10px 16px;
+    background-color: brown;
+    border: none;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .add-to-cart-button:hover {
+    background-color: rgb(110,26,26);
+  }

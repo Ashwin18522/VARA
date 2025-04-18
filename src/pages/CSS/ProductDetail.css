@@ -37,4 +37,21 @@
     border: none;
     cursor: pointer;
   }
+
+  .quantity-controls {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .quantity-controls button {
+    padding: 4px 10px;
+    font-size: 18px;
+  }
+  
+  .sizes button.selected {
+    background-color: #000;
+    color: #fff;
+  }
+  
   

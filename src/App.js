@@ -10,9 +10,11 @@ import ProductDetail from './pages/ProductDetail';
 import Login from './pages/Login/Login.jsx';
 import Payment from './pages/Checkout/Payment.jsx';
 
+import ShopContextProvider from './Context/ShopContext';
 function App() {
   return (
     <div className="App">
+      <ShopContextProvider>
       <BrowserRouter>
         <NavBar />
         <Routes>
@@ -32,6 +34,7 @@ function App() {
           {/*  <Route path='/ShopCategory' element={<ShopCategory/>} /> */ }
         </Routes>
       </BrowserRouter>
+      </ShopContextProvider>
     </div>
   );
 }

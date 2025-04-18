@@ -10,7 +10,7 @@ const Intro = () => {
         transition={{ duration: 0.8, ease: 'easeOut' }}
         viewport={{ once: true }}
       >
-        <h2>Welcome to VARA!!</h2>
+        <h2>Welcome to VARA!</h2>
         <p>
         Welcome to VARA, where tradition meets innovation. Inspired by the GI-tagged Channapatna Handicraft Toys, VARA is more than just a store—it’s a bridge between heritage and the future.
         </p>
