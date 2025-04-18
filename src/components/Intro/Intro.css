@@ -1,3 +1,7 @@
+body {
+  font-family: 'Montserrat',sans-serif;
+}
+
 .intro {
     padding: 4rem 2rem;
     max-width: 800px;
@@ -8,11 +12,14 @@
     border-radius: 1rem;
     box-shadow: 0 10px 20px rgba(0,0,0,0.05);
     margin-top: 2rem;
+    
+    
   }
   
   .intro h2 {
     font-size: 2rem;
     margin-bottom: 1rem;
+    
   }
   
   .intro p {

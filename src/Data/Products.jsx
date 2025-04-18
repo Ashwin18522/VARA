@@ -17,23 +17,29 @@ const products = [
     product_id: 101,
     name: "Bangles",
     price: 299,
-    description: "A vibrant set of handcrafted bangles perfect for traditional outfits.",
+    description: "Handcrafted bangles perfect for traditional outfits.",
     category: "Accessories",
     stock_quantity: 25,
     artisan_id: 1,
     image_url: Bangles,
     created_at: "2025-04-10T08:00:00",
+    artisan_name: "Bhupathy",
+    material_used: "Ivory Wood, Natural Lacquer, Vegetable Dyes",
+    vara_nanya:15
   },
   {
     product_id: 102,
     name: "Big Bunny",
     price: 399,
-    description: "A fluffy bunny toy that kids will love to cuddle.",
+    description: "A bunny toy that kids will love to cuddle.",
     category: "Toys",
     stock_quantity: 20,
     artisan_id: 2,
     image_url: BigBunny,
     created_at: "2025-04-10T08:05:00",
+    artisan_name: "Bhupathy",
+    material_used: "Ivory Wood, Natural Lacquer, Vegetable Dyes",
+    vara_nanya:10
   },
   {
     product_id: 103,
@@ -45,17 +51,23 @@ const products = [
     artisan_id: 3,
     image_url: CatCounting,
     created_at: "2025-04-10T08:10:00",
+    artisan_name: "Bhupathy",
+    material_used: "Ivory Wood, Natural Lacquer, Vegetable Dyes",
+    vara_nanya: 5
   },
   {
     product_id: 104,
     name: "Giant Wheel",
     price: 599,
-    description: "A miniature ferris wheel decor piece with moving parts.",
+    description: "A miniature ferris wheel decor piece.",
     category: "Decor",
     stock_quantity: 10,
     artisan_id: 4,
     image_url: GaintWheel,
     created_at: "2025-04-10T08:15:00",
+    artisan_name: "Bhupathy",
+    material_used: "Ivory Wood, Natural Lacquer, Vegetable Dyes",
+    vara_nanya: 5
   },
   {
     product_id: 105,
@@ -67,6 +79,9 @@ const products = [
     artisan_id: 5,
     image_url: Helicopter,
     created_at: "2025-04-10T08:20:00",
+    artisan_name: "Bhupathy",
+    material_used: "Ivory Wood, Natural Lacquer, Vegetable Dyes",
+    vara_nanya: 5
   },
   {
     product_id: 106,
@@ -78,17 +93,23 @@ const products = [
     artisan_id: 6,
     image_url: Scooter,
     created_at: "2025-04-10T08:25:00",
+    artisan_name: "Bhupathy",
+    material_used: "Ivory Wood, Natural Lacquer, Vegetable Dyes",
+    vara_nanya: 5
   },
   {
     product_id: 107,
     name: "Snail",
     price: 279,
-    description: "A whimsical snail-shaped pull-along wooden toy.",
+    description: "A whimsical snail-shaped wooden toy.",
     category: "Toys",
     stock_quantity: 15,
     artisan_id: 7,
     image_url: Snail,
     created_at: "2025-04-10T08:30:00",
+    artisan_name: "Bhupathy",
+    material_used: "Ivory Wood, Natural Lacquer, Vegetable Dyes",
+    vara_nanya: 5
   },
   {
     product_id: 108,
@@ -100,17 +121,23 @@ const products = [
     artisan_id: 8,
     image_url: Soldiers,
     created_at: "2025-04-10T08:35:00",
+    artisan_name: "Bhupathy",
+    material_used: "Ivory Wood, Natural Lacquer, Vegetable Dyes",
+    vara_nanya: 5
   },
   {
     product_id: 109,
     name: "Train",
     price: 399,
-    description: "Classic wooden train with detachable compartments.",
+    description: "Classic wooden train with compartments.",
     category: "Traditional Toys",
     stock_quantity: 10,
     artisan_id: 9,
     image_url: Train,
     created_at: "2025-04-10T08:40:00",
+    artisan_name: "Bhupathy",
+    material_used: "Ivory Wood, Natural Lacquer, Vegetable Dyes",
+    vara_nanya: 5
   },
   {
     product_id: 110,
@@ -122,6 +149,9 @@ const products = [
     artisan_id: 10,
     image_url: TrainEngine,
     created_at: "2025-04-10T08:45:00",
+    artisan_name: "Bhupathy",
+    material_used: "Ivory Wood, Natural Lacquer, Vegetable Dyes",
+    vara_nanya: 5
   },
   {
     product_id: 111,
@@ -133,6 +163,9 @@ const products = [
     artisan_id: 11,
     image_url: Truck,
     created_at: "2025-04-10T08:50:00",
+    artisan_name: "Bhupathy",
+    material_used: "Ivory Wood, Natural Lacquer, Vegetable Dyes",
+    vara_nanya: 5
   },
   {
     product_id: 112,
@@ -144,6 +177,9 @@ const products = [
     artisan_id: 12,
     image_url: Veena,
     created_at: "2025-04-10T08:55:00",
+    artisan_name: "Bhupathy",
+    material_used: "Ivory Wood, Natural Lacquer, Vegetable Dyes",
+    vara_nanya: 5
   },
   {
     product_id: 113,
@@ -155,6 +191,9 @@ const products = [
     artisan_id: 13,
     image_url: VintageCar,
     created_at: "2025-04-10T09:00:00",
+    artisan_name: "Bhupathy",
+    material_used: "Ivory Wood, Natural Lacquer, Vegetable Dyes",
+    vara_nanya: 5
   },
 ];
 

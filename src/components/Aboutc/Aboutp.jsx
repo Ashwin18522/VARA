@@ -1,12 +1,18 @@
 import React from 'react';
 import './Aboutp.css';
+import { motion } from 'framer-motion';
 // import toyWorkshop from '../Assets/images/toyWorkshop.jpg';
 // import artisanHands from '../Assets/images/artisanHands.jpg';
 // import spinningTop from '../Assets/images/spinningTop.jpg';
 
 const About = () => {
   return (
-    <div className="about-page">
+    
+    <motion.div className="about-page"
+      initial={{ opacity: 0, y: 50 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.8, ease: 'easeOut' }}
+        viewport={{ once: true }}>
       <section className="about-hero">
         <h1>The Timeless Charm of Channapatna Toys</h1>
         <p>From Craft to Childhood Memories</p>
@@ -76,7 +82,7 @@ const About = () => {
           </p>
         </div>
       </section>
-    </div>
+    </motion.div>
   );
 };
 

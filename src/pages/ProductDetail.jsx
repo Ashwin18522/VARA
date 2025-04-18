@@ -29,28 +29,31 @@ const ProductDetail = () => {
       </div>
 
       <div className="product-info">
-        <h2>{product.name}</h2>
-        <p className="price">₹{product.price}</p>
-        <p className="description">{product.description}</p>
+  <h2>{product.name}</h2>
 
-        <div className="quantity">
-          <label>Quantity:</label>
-          <div className="quantity-controls">
-            <button onClick={() => handleQuantityChange(-1)}>-</button>
-            <input
-              type="number"
-              min="1"
-              value={quantity}
-              readOnly
-            />
-            <button onClick={() => handleQuantityChange(1)}>+</button>
-          </div>
-        </div>
+  <div className="description-box">
+    <h3>Description</h3>
+    <p className="price">₹{product.price}</p>
+    <p className="description">{product.description}</p>
+    <p className="artisan-name">Artisan name: {product.artisan_name}</p>
+    <p className="material-used">Materials used: {product.material_used}</p>
+    <p className="vara-nanya">VARA Nanya: {product.vara_nanya}</p>
+  </div>
 
-        <button className="add-to-cart" onClick={handleAddToCart}>
-          Add {quantity} to Cart (₹{quantity * product.price})
-        </button>
-      </div>
+  <div className="quantity">
+    <label>Quantity:</label>
+    <div className="quantity-controls">
+      <button onClick={() => handleQuantityChange(-1)}>-</button>
+      <input type="number" min="1" value={quantity} readOnly />
+      <button onClick={() => handleQuantityChange(1)}>+</button>
+    </div>
+  </div>
+
+  <button className="add-to-cart" onClick={handleAddToCart}>
+    Add {quantity} to Cart (₹{quantity * product.price})
+  </button>
+</div>
+
     </div>
   );
 };
